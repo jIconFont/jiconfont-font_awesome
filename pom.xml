@@ -46,7 +46,7 @@
                 <version>2.3.1</version>
                 <configuration>
                     <includes>
-                        <include>jiconfont/fontawesome/FontAwesome.class</include>
+                        <include>jiconfont/icons/FontAwesome.class</include>
                         <include>fonts/fontawesome-webfont.ttf</include>
                     </includes>
                 </configuration>
