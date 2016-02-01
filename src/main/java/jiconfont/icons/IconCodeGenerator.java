@@ -1,4 +1,4 @@
-package jiconfont.fontawesome;
+package jiconfont.icons;
 
 import jiconfont.AbstractIconCodeGenerator;
 
@@ -43,15 +43,15 @@ public class IconCodeGenerator extends AbstractIconCodeGenerator {
       List<String> list = Files.readAllLines(path, Charset.forName("UTF-8"));
 
       String name = null;
-      for (String a : list) {
-        if (a.contains("id:")) {
-          name = a.replace("id:", "");
+      for (String line : list) {
+        if (line.contains("id:")) {
+          name = line.replace("id:", "");
           name = name.trim();
           name = name.replace("-", "_");
           name = name.toUpperCase();
         }
-        else if (a.contains("unicode:")) {
-          String unicode = a.replace("unicode:", "");
+        else if (line.contains("unicode:")) {
+          String unicode = line.replace("unicode:", "");
           unicode = unicode.trim();
           unicode = unicode.toUpperCase();
           registerIcon(name, unicode);

@@ -1,4 +1,4 @@
-package jiconfont.fontawesome;
+package jiconfont.icons;
 
 import jiconfont.IconCode;
 
