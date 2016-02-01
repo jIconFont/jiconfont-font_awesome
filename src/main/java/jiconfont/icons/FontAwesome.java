@@ -2,6 +2,8 @@ package jiconfont.icons;
 
 import jiconfont.IconCode;
 
+import java.io.InputStream;
+
 /**
  * Copyright (c) 2016 jIconFont <BR>
  * <BR>
@@ -648,7 +650,9 @@ public enum FontAwesome implements IconCode {
   }
 
   @Override
-  public String getFontPath() {
-    return "/fonts/fontawesome-webfont.ttf";
+  public InputStream getFontInputStream() {
+    return FontAwesome.class
+      .getResourceAsStream("/fonts/fontawesome-webfont.ttf");
   }
+
 }
