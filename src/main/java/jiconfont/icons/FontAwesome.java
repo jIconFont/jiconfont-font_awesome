@@ -649,10 +649,4 @@ public enum FontAwesome implements IconCode {
         return "FontAwesome";
     }
 
-    @Override
-    public InputStream getFontInputStream() {
-        return FontAwesome.class
-                .getResourceAsStream("/fonts/fontawesome-webfont.ttf");
-    }
-
 }
