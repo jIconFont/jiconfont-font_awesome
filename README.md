@@ -1,11 +1,1 @@
-## jIconFont - Font Awesome
-
-### Links
-
-* [http://fontawesome.io/](http://fontawesome.io/)
-* [GitHub Repository](https://github.com/FortAwesome/Font-Awesome)
-
-## LICENSE
-jIconFont is distributed under the terms of the [MIT license](http://opensource.org/licenses/mit-license.html). See LICENSE file for details.
-
-
+Visit [http://jiconfont.github.io/fontawesome](http://jiconfont.github.io/fontawesome)
