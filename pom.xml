@@ -10,7 +10,7 @@
 
     <groupId>com.github.jiconfont</groupId>
     <artifactId>jiconfont-font_awesome</artifactId>
-    <version>4.7.0.1</version>
+    <version>5.10.1.0</version>
     <packaging>jar</packaging>
 
     <name>jIconFont - Font Awesome</name>
